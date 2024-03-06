@@ -1,0 +1,59 @@
+html {
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+body {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 200px;
+  border: solid 2px purple;
+  border-radius: 30px;
+}
+
+#company-logo {
+  padding-bottom: 20px;
+}
+
+#login {
+  background-color: green;
+  border-color: white;
+  color: white;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+#background {
+  padding: 20px 30px;
+  background-color: purple;
+  color: white;
+}
+
+a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+  transition: color 1s, underline 1s;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  padding-top: 20px;
+  padding-right: 10px;
+}
